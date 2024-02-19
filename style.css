@@ -1,0 +1,66 @@
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+* {
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --primary-color:#fff;
+    --secondary-color:#999999;
+    --text-color:#000;
+}
+.header1,.header2 {
+    width: 80%;
+    margin: auto;
+}
+.mail {
+    color: var(--secondary-color);
+}
+span {
+    color: var(--text-color);
+}
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.icons {
+    text-align: end;
+}
+.logo p {
+    color: var(--secondary-color);
+}
+.button a {
+    background-color: #fd4c82;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header2 {
+    background-color: var(--primary-color);
+}
+.backimg {
+    background-image:url(./assets/imgs/back.webp) ;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+.btn-1 {
+    background-color: #fd4c82;
+}
+.btn-2 {
+    background-color: #2ecc71;
+}
+.banner {
+    height: 35em;
+}
+.content h1 {
+    font-weight: 900;
+    font-size: 4em;
+}
+.content p {
+    line-height: 2em;
+}
