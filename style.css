@@ -67,3 +67,19 @@ a {
 .footer {
     background-color: var(--secondary-color);
 }
+@media screen and (max-width:768px) {
+    .header1,.header2,.banner,.footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .header1,.header2,.banner,.footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
