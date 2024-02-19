@@ -64,3 +64,6 @@ a {
 .content p {
     line-height: 2em;
 }
+.footer {
+    background-color: var(--secondary-color);
+}
